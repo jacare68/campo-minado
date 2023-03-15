@@ -1,23 +1,27 @@
 Algoritmo "Campo Minado"
-// 
-//  
-// Descrição   : Jogo Campo minado
-// Autor(a)    : André Vitor e Kauê Batista
+//
+//
+// DescriÃ§Ã£o   : Jogo Campo minado
+// Autor(a)    : AndrÃ© Vitor e KauÃª Batista
 // Data atual  : 09/03/2023
 Var
-// Seção de Declarações das variáveis 
-inteiro mat[9][9] = {{10,1,2,1,0,0,0,1,1}
-                     {10,2,10,2,0,0,1,2,10}
-                     {10,4,10,2,0,0,2,10,2}
-                     {
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+mat: vetor [1..9, 1..9] de inteiro
+linha: inteiro
+co: inteiro
 
-
-
-
-
+i: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+
+para i <- 1 atÃ© 66 faca
+escreva("Indique a linha: ")
+leia(linha)
+escreva("Indique a coluna: ")
+leia(co)
+
+
 
 
 Fimalgoritmo
