@@ -1,2 +1,2 @@
-# campo-minado
-jogo campo minado criado em C# e Português Estruturado
+# Estudo de caso: campo-minado
+O jogo distribuí ao jogador uma quantidade de quadrados em um campo retangular em que cada quadrado representa uma área em que pode ou não haver uma bomba, o jogador irá escolher uma área que será revelada com um número, que indica a quantidade de bombas ao redor, o objetivo do jogador é escolher todas as áreas que não possuem bombas nela, caso ele escolha uma área com bomba, ele perde. O jogador tem também a opção de marcar os quadrados em que ele acredita ter bombas com uma bandeira para facilitar sua jogatina.
